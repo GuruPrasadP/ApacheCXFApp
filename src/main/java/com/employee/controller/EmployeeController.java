@@ -15,7 +15,7 @@ public class EmployeeController {
 	@Path("/retrieve-by-id/{empid}")
 	@Produces({ MediaType.APPLICATION_JSON })
 	public Response employeeDetails(@PathParam("empid") Integer empId) {
-		Employee employee = new Employee(empId,  empId+" name");
+		Employee employee = new Employee(empId ,  empId+" name");
 		return Response.status(200).entity(employee).build();
 	}
 
