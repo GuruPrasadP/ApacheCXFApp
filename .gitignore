@@ -1,0 +1,7 @@
+.pmd
+.classpath
+.project
+.settings/
+/bin/
+/classes/
+/target/
